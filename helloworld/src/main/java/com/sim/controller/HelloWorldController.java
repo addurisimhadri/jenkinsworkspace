@@ -9,7 +9,7 @@ public class HelloWorldController {
 	@GetMapping(path = "/")
 	public String getWelcome() {
 		
-		return "Wlecome to Jenkins";
+		return "Wlecome to Jenkins Hello World";
 	}
 
 }
